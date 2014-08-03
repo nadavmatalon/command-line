@@ -1,5 +1,3 @@
-README.md
-
 <h2>Working with the Command Line</h2>
 
 <h3>Makers | Week 1 | Challenge</h3>
