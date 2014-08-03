@@ -1,4 +1,4 @@
-<h3>Tasks:<h3>
+<h3>Tasks:</h3>
 <ul>
 	<li>Change into the temporary directory</li>
 	<li>Using one command, create a directory structure "my/private/files"</li> 
