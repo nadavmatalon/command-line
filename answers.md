@@ -56,7 +56,7 @@ $> env | grep "^T" >> t-vars.env
 ```bash
 $> export TESTING_MAKERS=working
 $> echo "export TESTING_MAKERS=working" >> ~/.bash_profile
-```bash
+```
 
 
 * open a new terminal window, check that a new variable is available
@@ -64,7 +64,7 @@ $> echo "export TESTING_MAKERS=working" >> ~/.bash_profile
 ```bash
 $> echo $TESTING_MAKERS
 => working
-```bash
+```
 
 * Output the `count` of the variables that `begin with T` to a new 
   file `my/public/files/t-vars.count`, e.g. "Overall count: 5" 
@@ -90,8 +90,7 @@ $> chmod 600 t-vars.env
 
 ```bash
 $> ls -l
-```bash
-
+```
 
 * Change the `permissions` of the `my/private/files` directory to make sure that only 
   the owner can change into it
@@ -131,7 +130,7 @@ $> ls -l
 ```bash
 $> cd ~ 
 $> find . -name *.txt | wc -w >> /tmp/my/files/text-files-count.txt
-```bash
+```
 
 > To get the same result with quotes: 
 
